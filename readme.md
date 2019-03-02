@@ -74,4 +74,8 @@ Thanks to
 * [Stencil](https://stenciljs.com/)
 * P5 demo by [Zalastax](https://github.com/Zalastax)
 
+## Refs
+
+* [Getting Started with StencilJS](https://cloudinary.com/blog/getting_started_with_stenciljs)
+
 The End

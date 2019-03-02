@@ -40,15 +40,55 @@ export namespace Components {
     */
     'middle'?: string;
   }
+
+  interface P5Canvas {
+    /**
+    * The first name
+    */
+    'first': string;
+    /**
+    * The last name
+    */
+    'last': string;
+    /**
+    * The middle name
+    */
+    'middle': string;
+    /**
+    * host provides sketch function
+    */
+    'sketch': (sketch: any) => void;
+  }
+  interface P5CanvasAttributes extends StencilHTMLAttributes {
+    /**
+    * The first name
+    */
+    'first'?: string;
+    /**
+    * The last name
+    */
+    'last'?: string;
+    /**
+    * The middle name
+    */
+    'middle'?: string;
+    'onOnP5Changed'?: (event: CustomEvent) => void;
+    /**
+    * host provides sketch function
+    */
+    'sketch'?: (sketch: any) => void;
+  }
 }
 
 declare global {
   interface StencilElementInterfaces {
     'MyComponent': Components.MyComponent;
+    'P5Canvas': Components.P5Canvas;
   }
 
   interface StencilIntrinsicElements {
     'my-component': Components.MyComponentAttributes;
+    'p5-canvas': Components.P5CanvasAttributes;
   }
 
 
@@ -58,12 +98,20 @@ declare global {
     new (): HTMLMyComponentElement;
   };
 
+  interface HTMLP5CanvasElement extends Components.P5Canvas, HTMLStencilElement {}
+  var HTMLP5CanvasElement: {
+    prototype: HTMLP5CanvasElement;
+    new (): HTMLP5CanvasElement;
+  };
+
   interface HTMLElementTagNameMap {
     'my-component': HTMLMyComponentElement
+    'p5-canvas': HTMLP5CanvasElement
   }
 
   interface ElementTagNameMap {
     'my-component': HTMLMyComponentElement;
+    'p5-canvas': HTMLP5CanvasElement;
   }
 
 
