@@ -8,10 +8,10 @@ This project demoes:
 
 * HowTo use [p5.js](https://p5js.org/examples/) in a webcomponent created by the [Stencil](https://stenciljs.com/) webcomponent builder.  
 
-The basic start [basic start](https://github.com/rasor/stncl-p5-poc/tree/chpt1) can be used in a usecase, where you want to [package your P5 creation in an npm package](https://stenciljs.com/docs/distribution) and [publish it to NPM](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry).  
+The [basic start](https://github.com/rasor/stncl-p5-poc/tree/chpt1) can be used in a usecase, where you want to [package your P5 creation in an npm package](https://stenciljs.com/docs/distribution) and [publish it to NPM](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry).  
 This work is based on [webpack](https://github.com/p5-types/p5.ts/blob/master/examples/webpack/src/index.ts)-sample.
 
-The next use case is to let a consumer provide the P5 skecth instance to a canvas-hosting webcomponent.  
+The next usecase is to let a consumer provide the P5 skecth instance to a canvas-hosting webcomponent.  
 This work is based on [create-react-app](https://github.com/p5-types/p5.ts/tree/master/examples/create-react-app)-sample. It is not fully done. PR's are welcome. 
 
 ## How this project was build
