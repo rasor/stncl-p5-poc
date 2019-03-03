@@ -88,4 +88,18 @@ Thanks to
 
 * [Getting Started with StencilJS](https://cloudinary.com/blog/getting_started_with_stenciljs)
 
+## Social
+
+The PoC was made at [February code jam](https://www.meetup.com/Creative-Coding-Copenhagen/events/258897367/) where also were present
+
+* Event host: [Carsten Høyer](https://www.linkedin.com/in/carstenhoeyer/) - [Carsten Høyer (@cahodk) | Twitter](https://twitter.com/cahodk) - [CarstenHoyer](https://github.com/CarstenHoyer)
+* [Hakim Mazouz](https://www.linkedin.com/in/mrmazouz/) - [Mr. Mazouz (@devigner96) | Twitter](https://twitter.com/devigner96) - [hakimmazouz](https://github.com/hakimmazouz) - [Hakim Mazouz on CodePen](https://codepen.io/devigner96/pens/forked/?sort_col=item_updated_at) - [Hakim Mazouz – Medium](https://medium.com/@Hobo_Gamer)
+* [Niels Otto/](https://www.linkedin.com/in/niels-otto/)
+* [Roar Engell](https://www.linkedin.com/in/roar-engell-8666b971/) - [Roar Engell (@RoarEngell) | Twitter](https://twitter.com/roarengell)
+* [Danni Dromi](https://www.linkedin.com/in/danni-dromi/) - [Danni Dromi (@PhallusInDaHaus) | Twitter](https://twitter.com/phallusindahaus?lang=en) - [dromi](https://github.com/dromi)
+* [Kristian Wichmann](https://www.linkedin.com/in/kristianwichmann/?locale=en_US) - [Kristian Wichmann (@KristianWichman) | Twitter](https://twitter.com/kristianwichman?lang=en) - [kwichmann ](https://github.com/kwichmann)
+* [Carsten Jørgensen](https://www.linkedin.com/in/carsten-j%C3%B8rgensen-508a0b/) - [Carsten Jørgensen (@Kahrzdn) | Twitter](https://twitter.com/kahrzdn?lang=en) - [Kahrzdn](https://github.com/Kahrzdn)
+* [Mattia Paterna](https://www.linkedin.com/in/mattiapaterna/?originalSubdomain=dk) - [Mattia Paterna (@inspiralpattern) | Twitter](https://twitter.com/inspiralpattern) - [inspiralpatterns](https://github.com/inspiralpatterns)
+* [Christian Lie](https://www.linkedin.com/in/christian-lie-944076100/)
+
 The End
